@@ -1,0 +1,31 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.banking-perk {
+  position: relative;
+  z-index: 2;
+  line-height: 24px;
+
+  &__num {
+    font-size: 36px;
+    color: #b30000;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  &__text {
+    font-size: 24px;
+    line-height: 28px;
+    font-style: italic;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+}

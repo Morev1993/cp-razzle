@@ -1,0 +1,144 @@
+{
+  "descr": [
+    "Please use English letters only",
+    "Por favor, use sólo letras inglesas",
+    "Por favor, use apenas letras em inglês",
+    "Vui lòng chỉ sử dụng chữ cái tiếng Anh",
+    "请仅使用英文字母"
+  ],
+  "apply": [
+    "Apply",
+    "Aplicar",
+    "Cadastro",
+    "Ứng dụng",
+    "申请"
+  ],
+  "company": [
+    "Company name",
+    "Nombre de empresa",
+    "Nome da Empresa",
+    "Tên công ty",
+    "公司名称"
+  ],
+  "firstName": [
+    "First Name",
+    "Nombre",
+    "Nome",
+    "Tên đầu tiên",
+    "名字"
+  ],
+  "lastName": [
+    "Last Name",
+    "Apellido",
+    "Sobrenome",
+    "Họ",
+    "姓氏"
+  ],
+  "siteUrl": [
+    "Website",
+    "Pagina Web",
+    "Website",
+    "Trang mạng",
+    "网站地址"
+  ],
+  "phone": [
+    "Contact phone number",
+    "Telefono",
+    "Telefone",
+    "Điện thoại",
+    "联系电话"
+  ],
+  "email": [
+    "Contact email",
+    "Email",
+    "Email",
+    "E-mail",
+    "邮箱地址"
+  ],
+  "industry": [
+    "Industry",
+    "Tipo de negocio",
+    "Ramo de atividade",
+    "Công nghiệp",
+    "所属行业"
+  ],
+  "region": [
+    "Your Region",
+    "Su región",
+    "Sua região",
+    "Khu vực của bạn",
+    "您所在的地区"
+  ],
+  "turnover": [
+    "Expected Monthly Turnover",
+    "Volumen de negocios mensual esperado",
+    "Volume de negócios mensal esperado",
+    "Doanh thu dự kiến hàng tháng",
+    "預期每月營業額"
+  ],
+  "message": [
+    "Message",
+    "Mensaje",
+    "Mensagem",
+    "Thông điệp",
+    "信息"
+  ],
+  "send": [
+    "Send",
+    "Enviar",
+    "Enviar",
+    "Gửi",
+    "发送"
+  ],
+  "form_submitted": [
+    "Your application has been submitted",
+    "Tu solicitud ha sido enviada",
+    "Sua aplicação foi submetida",
+    "Ứng dụng của bạn đã được gửi",
+    "您的申请已提交"
+  ],
+  "wait_sales": [
+    "Our sales team will contact you shortly",
+    "Nuestro equipo de ventas se comunicará con usted a la brevedad",
+    "Nossa equipe de vendas entrará em contato com você em breve",
+    "Đội ngũ bán hàng của chúng tôi sẽ liên lạc với bạn trong thời gian ngắn",
+    "我们的销售团队会尽快与您联系"
+  ],
+  "regions": {
+    "europe": [
+      "Europe",
+      "Europa",
+      "Europa",
+      "Châu Âu",
+      "欧洲"
+    ],
+    "north_america": [
+      "North America",
+      "Norteamérica",
+      "América do Norte",
+      "Bắc Mỹ",
+      "北美"
+    ],
+    "asia": [
+      "Ásia",
+      "Asia",
+      "Ásia",
+      "Châu Á",
+      "亚洲"
+    ],
+    "brazil": [
+      "Brazil",
+      "Brasil",
+      "Brasil",
+      "Brazil",
+      "巴西"
+    ],
+    "mexico": [
+      "Mexico",
+      "Mexico",
+      "México",
+      "Mexico",
+      "墨西哥"
+    ]
+  }
+}

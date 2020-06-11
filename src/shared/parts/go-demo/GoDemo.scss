@@ -1,0 +1,172 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+@import '~scss/bootstrap/animations';
+
+.go-demo-button-wrapper {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50px, -50%);
+  transition: all .2s ease-in-out;
+
+  .optimised-for-desktop {
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $green;
+    margin-bottom: 4px;
+
+    @media  screen and (min-width: $mobile-bp + 1) {
+      display: none;
+    }
+  }
+
+  .btn-go-demo {
+    min-width: 270px;
+    width: auto;
+    .button-text-wrapper {
+      display: inline-block;
+      vertical-align: top;
+      color: $white;
+    }
+    .button-arrow-wrapper {
+      line-height: 0;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 1rem;
+
+      @media(max-width: 767px) {
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+
+    @media(max-width: 767px) {
+      font-size: 14px;
+      line-height: 20px;
+      padding: 10px;
+      width: 190px;
+      border-radius: 10px;
+      height: 40px;
+    }
+  }
+
+
+  // ДЛЯ ПЕРВОГО СЛАЙДА
+  @media  screen and (max-width: 1024px) {
+    top: 50%;
+    left: auto;
+    right: 0px;
+    transform: translate(0px, -50%);
+
+    .btn-go-demo {
+      width: auto;
+      min-width: auto;
+    }
+  }
+
+  @media  screen and (max-width: 767px) {
+    top: 70%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+
+    .btn-go-demo {
+      width: 270px !important;
+    }
+
+  }
+
+  // ПЕРВЫЙ СЛАЙД МОБИЛЬНЫЙ
+  @media screen and (max-width: $mobile-bp) {
+    top: 72%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+
+    .btn-go-demo {
+      background-color: $white;
+      color: $green;
+      box-shadow: none;
+
+      .button-arrow-wrapper {
+        margin-right: 8px;
+      }
+      svg polygon {
+        fill: $green;
+      }
+      &:hover, &:active, &:focus {
+        background-color: $gray-100 !important;
+        color: $green !important;
+        border-color: $green !important;
+      }
+    }
+  }
+
+  @media screen and (max-width: 330px) {
+    top: 65%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media screen and (max-height: $mobile-bp) {
+    display: none;
+  }
+
+
+  // для payment methods
+  &.bottom {
+    @media screen and (max-width: $mobile-bp) {
+      top: auto;
+      bottom: 10% !important;
+      right: auto;
+      transform: translate(-50%, 0%);
+    }
+
+    @media screen and (max-width: 340px) {
+      bottom: 10% !important;
+    }
+  }
+
+  // для всех кроме первого слайда
+  &.top {
+    top: 0;
+    right: 0;
+    transform: translate(0px, 60px);
+
+    @media screen and (max-width: 767px) {
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, 16px);
+    }
+
+    @media screen and (max-height: $mobile-bp) {
+      top: auto;
+      bottom: 20%;
+      right: auto;
+      transform: translate(-50%, -50%);
+    }
+
+    @media screen and (max-width: $mobile-bp) {
+      top: auto;
+      bottom: 20%;
+      right: auto;
+      transform: translate(-50%, 0%);
+    }
+
+    @media screen and (max-width: 330px) {
+      bottom: 20%;
+      transform: translate(-50%, 50%);
+    }
+
+    .btn-go-demo {
+      width: 270px;
+
+      @media screen and (max-width: $mobile-bp) {
+        width: 190px;
+      }
+    }
+  }
+}

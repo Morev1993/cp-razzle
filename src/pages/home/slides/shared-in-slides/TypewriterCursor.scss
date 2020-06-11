@@ -1,0 +1,12 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+@import '~scss/bootstrap/animations';
+
+.typewriter-cursor {
+  display: inline-block;
+  margin-left: 8px;
+  width: 32px;
+  height: 4px;
+  background-color: $green;
+  animation: blinking 0.5s infinite;
+}

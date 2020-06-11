@@ -1,0 +1,31 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.contacts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+
+  h1 {
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 22px;
+    }
+  }
+}
+
+.contacts-body {
+  font-size: 12px;
+}
+
+.contact-item {
+  margin-bottom: 30px;
+  a {
+    color: $gray-600;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}

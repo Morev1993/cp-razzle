@@ -1,0 +1,83 @@
+@import './typo';
+@import './links';
+@import './buttons';
+@import './forms';
+@import './blocks';
+
+.hidden {
+  display: none;
+}
+
+.typepage {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: $footer-height;
+  font-size: 18px;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 200px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 100px;
+  }
+
+  @include media-breakpoint-down(md) {
+    padding-bottom: $footer-height + 100px;
+  }
+
+  @media(max-width: $mobile-bp) {
+    padding-top: 150px;
+  }
+
+  @include media-breakpoint-down(xs) {
+    padding-bottom: calc(#{$footer-height} + 50px);
+  }
+
+  &.copyright {
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  &_footer_only-menu {
+    padding-bottom: $footer-height-only-menu;
+  }
+
+  &_footer_only-text {
+    padding-bottom: $footer-height-only-text;
+  }
+}
+
+.box {
+  padding: 27px 100px 33px;
+  background-color: rgba(0, 170, 255, 0.3);
+  font-style: italic;
+  a {
+    color: $black;
+  }
+}
+
+div.rc-dialog-body {
+  padding: 60px 40px;
+  font-size: 18px;
+}
+
+button.rc-dialog-close {
+  z-index: 10;
+  font-size: 40px;
+}
+
+.success-modal-heading {
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  .rc-dialog {
+    margin: 130px auto;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,900&display=swap');

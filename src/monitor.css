@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.normal {
+    font-style: normal;
+}
+</style>
+</head>
+<body>
+
+<p class="normal">It works.</p>
+
+</body>
+</html>

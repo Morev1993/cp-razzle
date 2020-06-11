@@ -1,0 +1,28 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.website-terms-page {
+
+  &__caption {
+    position: relative;
+    z-index: 2;
+    font-size: 54px;
+    line-height: 62px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+
+  &__body {
+    font-size: 18px;
+    line-height: 32px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+}

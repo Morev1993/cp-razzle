@@ -1,0 +1,21 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.text-bullet {
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  width: 8px;
+  height: 8px;
+  margin: 16px;
+  background-color: $green;
+  margin-right: 2rem;
+
+  @media screen and (max-width: 767px) {
+    margin: 8px;
+  }
+
+  @media screen and (max-height: 640px) {
+    margin: 8px;
+  }
+}

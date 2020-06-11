@@ -1,0 +1,62 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.advantage-slide {
+  &__caption {
+    font-size: 54px;
+    line-height: 64px;
+
+    @include media-breakpoint-down(md) {
+      font-size: 32px;
+      line-height: 48px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+
+  &__description {
+    font-size: 18px;
+    line-height: 24px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  &__switch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__switch-item {
+    position: relative;
+    width: 30px;
+    height: 10px;
+    cursor: pointer;
+
+    &::before {
+      display: block;
+      content: '';
+      height: 4px;
+      width: 100%;
+      position: absolute;
+      top: 3px;
+      background-color: #d8d8d8;
+    }
+
+    &_is-active {
+      width: 70px;
+      cursor: default;
+
+      &::before {
+        background-color: #ffbf00;
+      }
+    }
+  }
+}

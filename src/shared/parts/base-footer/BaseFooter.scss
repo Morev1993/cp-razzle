@@ -1,0 +1,56 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.base-footer {
+  padding-bottom: 8rem;
+  padding-top: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: $footer-height;
+
+  @include media-breakpoint-down(md) {
+    height: $footer-height + 65px;
+  }
+
+  color: #9b9b9b;
+  a {
+    color: #9b9b9b;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+.base-footer_only-text {
+  height: $footer-height-only-text;
+
+  @include media-breakpoint-down(md) {
+    height: $footer-height-only-text + 100px;
+  }
+}
+
+.base-footer_only-menu {
+  height: $footer-height-only-menu;
+
+  @include media-breakpoint-down(md) {
+    height: $footer-height-only-menu + 100px;
+  }
+}
+
+.base-footer-menu {
+  display: flex;
+  font-size: 12px;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 30px;
+    li {
+      //margin-bottom: 30px;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

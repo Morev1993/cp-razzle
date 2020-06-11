@@ -1,0 +1,56 @@
+.btn-success, a.btn-success {
+  color: $white;
+}
+
+.btn {
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;
+
+  &:focus, &:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+}
+
+.btn:disabled {
+  pointer-events: none;
+}
+
+.btn-lg {
+  width: 270px;
+  font-size: 24px;
+  padding: 16px 16px 14px;
+}
+
+.btn-xxl {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 15px 80px;
+}
+
+.btn-success {
+  box-shadow: 0 2px 4px rgba(0,0,0,.3);
+  &:hover {
+    background: $brand-active;
+    border-color: $brand-active;
+    color: $black;
+  }
+}
+
+.btn-lg-arrow-right {
+  font-family: Lucida Grande;
+  margin-right: 1rem;
+  display: inline-block;
+  position: relative;
+  top: -3px;
+}
+
+.btn-outline-success {
+  &:hover {
+    background: $brand-active;
+    border-color: $brand-active;
+    color: $black;
+  }
+}

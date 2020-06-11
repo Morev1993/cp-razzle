@@ -1,0 +1,30 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.modal-message {
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(245, 248, 250, 0.93);
+  padding: .5rem 1rem;
+
+  .cookies-text {
+    font-size: 12px;
+    line-height: 1.2;
+
+    @media screen and (max-width: 575px) {
+      margin-bottom: .5rem;
+    }
+  }
+
+  .btn-cookies {
+    height: 33px;
+    font-size: 12px;
+    line-height: 19px;
+    padding: 7px 14px;
+    text-align: center;
+    width: 100%;
+  }
+}

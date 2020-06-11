@@ -1,0 +1,25 @@
+@keyframes up-and-down {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0
+  }
+
+}

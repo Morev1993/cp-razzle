@@ -1,0 +1,218 @@
+{
+  "page-meta-title": [
+    "iBanking",
+    "iBanking",
+    "iBanking",
+    "iBanking",
+    "iBanking"
+  ],
+  "current_accounts": [
+    "Current Accounts",
+    "Cuentas existentes",
+    "Conta Corrente",
+    "Tài khoản thanh toán",
+    "活期账户"
+  ],
+  "current_accounts_description": [
+    "Open your corporate account with Cardpay today, and manage your day-to-day cashflow with ease. Perfect for new and already established businesses alike, on and offline.",
+    "Apertura de nuevas cuentas corporativas para el manejo diario de su flujo de efectivo. Esto es ideal para nuevos negocios que quieran vender a través de comercio electrónico o para quienes ya lo hacen.",
+    "Abra sua conta corporativa com a Cardpay para gerenciar as suas movimentações diárias. Perfeito para novos negócios online e empresas de e-comerce já estabelecidas.",
+    "Mở tài khoản doanh nghiệp với Cardpay để quản lí dòng tiền của bạn. Phù hợp với doanh nghiệp trực tuyến mới thành lập và các doanh nghiệp tương tự.",
+    "在Cardpay开通公司账户来管理日常现金流，非常适合于新开展的在线业务以及现有的在线业务公司。"
+  ],
+  "offer": {
+    "title": [
+      "WE OFFER",
+      "QUÉ OFRECEMOS",
+      "NÓS OFERECEMOS",
+      "CHÚNG TÔI CUNG CẤP",
+      "我们提供"
+    ],
+    "text_1": [
+      "IBAN multi-currency accounts",
+      "Cuenta multi moneda IBAN",
+      "Conta IBAN multi-moeda",
+      "Tài khoản đa tiền tệ IBAN",
+      "国际银行账号"
+    ],
+    "text_2": [
+      "SWIFT, SEPA and TARGET2 Wire transfers",
+      "SWIFT, SEPA, TARGET2",
+      "transferências SWIFT, SEPA e TARGET2",
+      "SWIFT, SEPA và TARGET2",
+      "SWIFT、SEPA和TARGET2汇款"
+    ],
+    "text_3": [
+      "Corporate Cards",
+      "Tarjetas corporativas",
+      "Cartões corporativos",
+      "Thẻ doanh nghiệp",
+      "公司卡"
+    ],
+    "text_4": [
+      "Currency Exchange Services",
+      "Cambio de divisas",
+      "Câmbio de moeda",
+      "Thu đổi ngoại tệ",
+      "货币兑换"
+    ]
+  },
+  "perks": {
+    "title": [
+      "OUR PERKS",
+      "VENTAJAS COMPETITIVAS",
+      "NOSSOS BENEFÍCIOS",
+      "ĐIỂM MẠNH CỦA CHÚNG TÔI",
+      "我们的优势"
+    ],
+    "text_1": [
+      "Same-day wire transfers",
+      "Transferencias mismo día",
+      "Transferências compensadas no mesmo dia",
+      "Chuyển khoản trong ngày",
+      "转账当日可到账"
+    ],
+    "text_2": [
+      "Cross-Border transfers in a wide range of currencies",
+      "Transferencias internacionales en diferentes monedas",
+      "Transferência para o exterior em diferentes moedas",
+      "Chuyển khoản xuyên biên giới với nhiều loại tiền tệ",
+      "支持多币种跨境转账"
+    ],
+    "text_3": [
+      "Rapid on-boarding: get your account set up in the same day",
+      "Integración sencilla: realice la configuración de su cuenta el mismo día",
+      "Cadastro rápido: ative a sua conta em um dia",
+      "Mở tài khoản ngay trong ngày",
+      "快速上线：一天内可开通账户"
+    ],
+    "text_4": [
+      "A Dedicated Account Manager to help your business",
+      "Ejecutivo de cuenta asignado a usted",
+      "Gerente de Conta dedicado",
+      "Chuyên viên chăm sóc tận tình",
+      "专业的客户经理"
+    ],
+    "text_5": [
+      "One account, multiple currencies: EUR, USD, GBP and many more",
+      "Una sola cuenta para diferentes monedas (EUR, USD, GBP, etc.)",
+      "Uma conta para múltiplas moedas: EUR, USD, GBP e muito mais",
+      "Một tài khoản, nhiều loại tiền tệ: EUR, USD, GBP và hơn nữa",
+      "一个账户支持多币种：欧元，美元，英镑等"
+    ],
+    "text_6": [
+      "Dedicated Payment Card: get one and use it anywhere in the world!",
+      "Tarjetas de pago, obtenga la suya y utilicela en todo el mundo",
+      "Cartões de pagamento: receba o seu e use em qualquer lugar do mundo",
+      "Thẻ thanh toán: dùng mọi nơi trên toàn thế giới",
+      "支付卡：一个卡号全球通用"
+    ]
+  },
+  "industries": {
+    "title": [
+      "INDUSTRIES WE SERVE",
+      "MERCADO QUE ATENDEMOS",
+      "INDUSTRIAS QUE ATENDEMOS",
+      "CÁC NGÀNH CHÚNG TÔI PHỤC VỤ",
+      "我们服务的行业"
+    ],
+    "text_11": [
+      "SOFTWARE & WEB",
+      "SOFTWARE",
+      "SOFTWARE e WEB",
+      "PHẦN MỀM & WEB",
+      "软件&互联网"
+    ],
+    "text_12": [
+      "GAME",
+      "VIDEOJUEGOS",
+      "JOGOS",
+      "TRÒ CHƠI",
+      "游戏行业"
+    ],
+    "text_13": [
+      "MOBILE APP",
+      "APPS MÓVILES",
+      "APLICATIVOS MÓVEIS",
+      "ỨNG DỤNG DI ĐỘNG",
+      "移动端应用"
+    ],
+    "text_14": [
+      "SAAS",
+      "SAAS",
+      "SAAS",
+      "SAAS",
+      "软件即服务(SAAS)"
+    ],
+    "text_21": [
+      "ROBOTICS",
+      "ROBOTICA",
+      "ROBOTICA",
+      "ROBOTICS",
+      "机器人应用"
+    ],
+    "text_22": [
+      "VR/AR",
+      "VR/AR",
+      "REALIDADE VIRTUAL / REALIDADE AUMENTADA",
+      "VR / AR",
+      "虚拟现实与增强现实(VR/AR)"
+    ],
+    "text_23": [
+      "LIFE SCIENCE",
+      "CIENCIAS",
+      "CIENCIAS DA VIDA",
+      "KHOA HỌC ĐỜI SỐNG",
+      "生命科学行业"
+    ],
+    "text_24": [
+      "MEDTECH",
+      "MEDICINA TECHOLÓGICA",
+      "MEDTECH",
+      "MEDTECH",
+      "医疗行业"
+    ],
+    "text_31": [
+      "ONLINE PLATFORMS",
+      "PALTFORMAS EN LINEA PLATFORMAS",
+      "PLATAFORMAS ONLINE",
+      "NỀN TẢNG TRỰC TUYẾN",
+      "线上交易平台"
+    ],
+    "text_32": [
+      "ADVERTISERS & PUBLISHERS",
+      "MERCADOTECNIA Y PUBLICIDAD",
+      "PUBLICIDADE & ADVERTISING",
+      "QUẢNG CÁO & NHÀ XUẤT BẢN",
+      "广告商&出版商"
+    ],
+    "text_33": [
+      "E-COMMERCE",
+      "COMERCIO ELECTRÓNICO",
+      "E-COMMERCE",
+      "THƯƠNG MẠI ĐIỆN TỬ",
+      "电子商务"
+    ],
+    "text_34": [
+      "STARTUPS",
+      "STARTUPS",
+      "STARTUPS",
+      "STARTUPS",
+      "初创公司"
+    ]
+  },
+  "get_in_touch": [
+    "GET IN TOUCH!",
+    "PONTE EN CONTACTO!",
+    "ENTRE EM CONTATO!",
+    "LIÊN HỆ VỚI CHÚNG TÔI!",
+    "联系我们！"
+  ],
+  "refer": [
+    "Please refer to our Terms and Conditions, Fees and Charges and other rules available on the site",
+    "Por favor revisa los términos y condiciones, así como comisiones y otras reglas disponibles",
+    "Por favor se refira para Termos e Condições",
+    "Vui lòng tham khảo Điều khoản và Điều kiện, Phí và các quy định khác",
+    "请参阅现有的条款、收费及其它规则"
+  ]
+}

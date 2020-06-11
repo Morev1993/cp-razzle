@@ -1,0 +1,98 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.careers-page {
+  font-size: 18px;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 14px;
+  }
+
+  &__heading {
+    font-size: 54px;
+    line-height: 62px;
+    margin-bottom: 32px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+
+  &__description {
+    line-height: 24px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  &__advantages {
+    height: 370px;
+    background-color: #f2f2f2;
+  }
+
+  &__vacancies {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.BambooHR-ATS-board {
+
+  .BambooHR-ATS-Department-Header {
+    color: $gray-900;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  ul ul {
+    border-bottom: 1px solid $gray-300;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  .BambooHR-ATS-Jobs-List {
+    padding: 2px 0px 12px 0px;
+    margin-bottom: 24px;
+  }
+
+  .BambooHR-ATS-Location {
+    color: $gray-600;
+    font-size: 0.75rem;
+    @media screen and (max-width: map-get($grid-breakpoints, lg)) {
+      clear: both;
+      float: none;
+      display: block;
+      padding-top: 0;
+    }
+  }
+
+  .BambooHR-ATS-Jobs-Item {
+    margin-bottom: 0.5rem !important;
+    @media screen and (max-width: map-get($grid-breakpoints, lg)) {
+      margin-bottom: 1rem !important;
+    }
+    a {
+      font-size: 1.25rem;
+      line-height: 1.2;
+    }
+  }
+
+  .BambooHR-ATS-Department-Item {
+    margin-bottom: 3rem !important;
+    @media screen and (max-width: map-get($grid-breakpoints, lg)) {
+      margin-bottom: 2rem !important;
+    }
+  }
+
+  @media screen and (max-width: map-get($grid-breakpoints, lg)) {
+    a {
+      display: block;
+    }
+  }
+}

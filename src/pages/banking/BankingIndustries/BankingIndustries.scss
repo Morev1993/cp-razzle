@@ -1,0 +1,20 @@
+.banking-industries {
+  //height: 116px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+
+  &_theme_violet {
+    color: #7000c7;
+  }
+
+  &_theme_dark-violet {
+    color: #572c9e;
+  }
+
+  &_theme_pink {
+    color: #bd10e0;
+  }
+}

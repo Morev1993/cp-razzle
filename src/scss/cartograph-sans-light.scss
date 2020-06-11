@@ -1,0 +1,80 @@
+$fontUrl: "scss/cartograph/";
+$fontUrlWoff: "scss/cartograph-woff/";
+
+@font-face {
+  font-family: 'Cartograph Sans CF';
+  src: local('☺'), url('#{$fontUrlWoff}CartographSansCF-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Cartograph Sans CF';
+  src: url('#{$fontUrl}CartographSansCFRegular.eot');
+  src: local('☺'), url('#{$fontUrl}CartographSansCFRegular.woff') format('woff'), url('#{$fontUrl}CartographSansCFRegular.ttf') format('truetype'), url('#{$fontUrl}CartographSansCFRegular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cartograph Sans CF';
+  src: url('#{$fontUrl}CartographSansCFRegularItalic.eot');
+  src: local('☺'), url('#{$fontUrl}CartographSansCFRegularItalic.woff') format('woff'), url('#{$fontUrl}CartographSansCFRegularItalic.ttf') format('truetype'), url('#{$fontUrl}CartographSansCFRegularItalic.svg') format('svg');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cartograph Sans CF';
+  src: url('#{$fontUrl}CartographSansCFMedium.eot');
+  src: local('☺'), url('#{$fontUrl}CartographSansCFMedium.woff') format('woff'), url('#{$fontUrl}CartographSansCFMedium.ttf') format('truetype'), url('#{$fontUrl}CartographSansCFMedium.svg') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cartograph Sans CF';
+  src: url('#{$fontUrl}CartographSansCFMediumItalic.eot');
+  src: local('☺'), url('#{$fontUrl}CartographSansCFMediumItalic.woff') format('woff'), url('#{$fontUrl}CartographSansCFMediumItalic.ttf') format('truetype'), url('#{$fontUrl}CartographSansCFMediumItalic.svg') format('svg');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cartograph Sans CF';
+  src: url('#{$fontUrl}CartographSansCFBold.eot');
+  src: local('☺'), url('#{$fontUrl}CartographSansCFBold.woff') format('woff'), url('#{$fontUrl}CartographSansCFBold.ttf') format('truetype'), url('#{$fontUrl}CartographSansCFBold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cartograph Sans CF';
+  src: local('☺'), url('#{$fontUrlWoff}CartographSansCF-XBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cartograph Sans CF';
+  src: local('☺'), url('#{$fontUrlWoff}CartographSansCF-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cartograph Sans CF';
+  src: local('☺'), url('#{$fontUrlWoff}CartographSansCF-HeavyItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}

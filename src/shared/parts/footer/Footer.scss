@@ -1,0 +1,167 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+@import '~scss/bootstrap/animations';
+
+.app-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0 0 64px;
+  transition: opacity .4s ease-in-out;
+
+  // @media(max-width: map-get($grid-breakpoints, md)) {
+  //   padding: 0 0 16px;
+  // }
+
+  @media(max-height: $mobile-bp) {
+    display: none;
+  }
+
+  &.out {
+    .contact-sales {
+      opacity: 0;
+    }
+  }
+
+  .scroll-down--wrapper {
+    width: 500px;
+    position: relative;
+    padding-top: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    transition: transform .2s ease-in-out;
+
+    @media screen and (max-width: map-get($grid-breakpoints, md)) {
+      width: 300px;
+      top: 50px;
+    }
+
+    @media screen and (max-width: map-get($grid-breakpoints, lg)) {
+      width: 300px;
+      top: 50px;
+    }
+
+    &.up {
+      transform: translateY(600px);
+    }
+
+    .scroll-text {
+      font-size: 12px;
+      line-height: 20px;
+
+      .scroll-text--mobile {
+        display: none;
+        @media screen and (max-width: $mobile-bp) {
+          display: block;
+        }
+      }
+      .scroll-text--desktop {
+
+        @media screen and (max-width: $mobile-bp) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .scroll-down-icon {
+    display: inline-block;
+    position: relative;
+    animation: up-and-down 5s infinite ease-in-out;
+
+    @media screen and (max-width: $mobile-bp) {
+      display: none;
+    }
+
+  }
+
+  .contact-sales {
+    color: $primary !important;
+    position: relative;
+    bottom: 16px;
+    left: 16px;
+    display: inline-block;
+    cursor: pointer;
+    padding-bottom: .25rem;
+
+    &.hidden {
+      display: none;
+    }
+
+    &.upper {
+      @media screen and (max-width: $mobile-bp) {
+        display: block;
+        text-align: center;
+        left: 0;
+        bottom: -48px !important;
+      }
+    }
+
+    @media screen and (max-width: $mobile-bp) {
+      display: block;
+      text-align: center;
+      left: 0;
+      bottom: -80px !important;
+    }
+
+    @media screen and (min-width: 998px) {
+      bottom: 80px;
+    }
+
+    @media screen and (min-width: 768px) {
+      bottom: 0px;
+    }
+
+    @media screen and (max-height: 720px) {
+      bottom: 0px;
+    }
+
+    @media screen and (max-width: 767px) and (min-width: $mobile-bp) {
+      bottom: -32px;
+      left: 50%;
+      transform: translateX(-50%) !important;
+    }
+
+    @media screen and (min-width: 998px) {
+      bottom: 80px;
+    }
+
+    @media screen and (min-width: 998px) and (max-height: 800px) {
+      bottom: 0px;
+    }
+
+    @media screen and (max-height: 610px) {
+      bottom: -32px;
+    }
+
+    .link-hover {
+      display: inline-block;
+      position: relative;
+
+      &:hover {
+        text-decoration: none;
+        color: darken($primary, 5%) !important;
+
+        &::after {
+          width: 0%;
+        }
+      }
+
+      &::after {
+        transition: all .2s ease-in-out;
+        content: '';
+        position: absolute;
+        left: 10%;
+        width: 80%;
+        bottom: -8px;
+        height: 1px;
+        background-color: $primary;
+      }
+    }
+
+
+
+  }
+}

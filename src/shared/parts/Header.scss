@@ -1,0 +1,144 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.app-header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-top: 60px;
+  padding: 0 50px 0;
+  transition: transform .4s ease;
+  z-index: 10;
+
+
+  @media(max-width: 1024px) {
+    padding: 16px 16px 0;
+    margin-top: 0;
+  }
+  @media(max-height: 1024px) {
+    padding: 16px 16px 0;
+    margin-top: 0;
+  }
+
+  @media(max-height: $mobile-bp) {
+    // display: none;
+    .app-header-inner {
+      padding: 10px 20px !important;
+    }
+  }
+
+  &.app-header-pages {
+    position: fixed;
+    background-color: #fff;
+    padding-bottom: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+    @media(min-width: $mobile-bp + 1) {
+      display: none;
+    }
+  }
+
+  &:not(.sticky) {
+    &:not(.secondary-page) {
+      .logo-wrapper {
+
+        @media(max-width: map-get($grid-breakpoints, xl)) {
+          width: 200px;
+          height: 100px;
+          svg {
+            width: 200px;
+            height: 100px;
+          }
+        }
+
+        @media(max-width: map-get($grid-breakpoints, md)) {
+          width: 150px;
+          height: 100px;
+          svg {
+            width: 150px;
+            height: 100px;
+          }
+        }
+
+        @media(max-height: 767px) {
+          width: 200px;
+          height: 100px;
+          svg {
+            width: 200px;
+            height: 100px;
+          }
+        }
+
+        @media(max-height: 600px) {
+          width: 120px;
+          height: 60px;
+          svg {
+            width: 120px;
+            height: 60px;
+          }
+        }
+
+      }
+    }
+  }
+
+  .desktop-navigation {
+    @media(max-width: map-get($grid-breakpoints, lg)) {
+      display: none;
+    }
+  }
+  .mobile-navigation {
+    display: none;
+    cursor: pointer;
+    padding: 5px;
+    &:hover {
+      background-color: $gray-100;
+
+    }
+    @media(max-width: map-get($grid-breakpoints, lg)) {
+      display: block;
+    }
+  }
+
+  &.sticky, &.secondary-page.v-pos-bottom {
+    position: fixed;
+    top: auto;
+    bottom: 40px;
+
+    @media screen and (max-width: $mobile-bp) {
+      display: none;
+    }
+
+    .app-header-inner {
+      padding: 20px 50px;
+      border-radius: 40px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+      background: $white;
+    }
+
+    &.out {
+      transform: translateY(300px);
+    }
+  }
+
+  &.secondary-page {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &.out {
+    transform: translateY(-300px);
+    @media screen and (max-width: $mobile-bp) {
+      transform: translateY(0px);
+    }
+  }
+
+}
+
+.app-header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

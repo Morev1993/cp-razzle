@@ -1,0 +1,41 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.blog-page {
+
+  &__title {
+    font-size: 54px;
+    line-height: 62px;
+  }
+
+  &__contributor {
+    font-size: 16px;
+
+    a {
+      position: relative;
+      display: inline-block;
+
+      &::before {
+        position: absolute;
+        content: '';
+        background-color: #007aff;
+        height: 1px;
+        bottom: -3px;
+        width: 80%; left: 10%;
+        transition: width .5s;
+      }
+
+      &:hover {
+        text-decoration: none;
+
+        &::before {
+          width: 0;
+        }
+      }
+    }
+  }
+
+  &__posts {
+    margin-top: 70px;
+  }
+}

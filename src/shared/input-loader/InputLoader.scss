@@ -1,0 +1,29 @@
+.input-loader {
+  position: absolute;
+  top: 22px;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: rotate 1s infinite linear;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

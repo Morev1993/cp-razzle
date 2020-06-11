@@ -1,0 +1,36 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.apply-form {
+  position: relative;
+  z-index: 2;
+}
+
+.apply-form-submit {
+  text-align: right;
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+  }
+}
+
+.grecaptcha-badge {
+  visibility: hidden !important;
+}
+
+.contacts-descr {
+  color: $gray-600;
+  font-size: 16px;
+}
+
+/*@include media-breakpoint-down(lg) {
+  .grecaptcha-badge {
+    position: relative !important;
+    bottom: auto !important; right: auto !important;
+
+    margin-left: auto;
+
+    @include media-breakpoint-down(sm) {
+      margin: 0 auto 20px;
+    }
+  }
+}*/

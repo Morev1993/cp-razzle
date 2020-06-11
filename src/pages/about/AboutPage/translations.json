@@ -1,0 +1,168 @@
+{
+  "page-meta-title": [
+    "ABOUT",
+    "Acerca de nosotros",
+    "Sobre nós",
+    "Về chúng tôi",
+    "关于我们"
+  ],
+  "page-title": [
+    "About",
+    "Acerca de nosotros",
+    "Sobre nós",
+    "Về chúng tôi",
+    "关于我们"
+  ],
+  "description": {
+    "our-mission": [
+      "Our vision is a world without financial borders",
+      "Nuestra misión es lograr un mundo sin límites financieros.",
+      "Nossa missão é o mundo sem fronteiras financeiras",
+      "Sứ mệnh của chúng tôi là một thế giới không rào cản về tài chính",
+      "我们的使命是让金融行业无边界"
+    ],
+    "cardpay-is-global": [
+      "Cardpay operates as a truly global eCommerce acquiring service.",
+      "Cardpay es un procesador de pagos de comercio electrónico a nivel mundial.",
+      "Cardpay é um adquirente de e-commerce global",
+      "Cardpay là đơn vị xử lí giao dịch thanh toán thương mại điện tử toàn cầu.",
+      "Cardpay是一家全球电子商务收单行"
+    ],
+    "with-cardpay": [
+      "Through Cardpay, businesses get access to a powerful set of payment tools, allowing you to manage every area of your global business. Here's how:",
+      "Con Cardpay obtienes un robusto sistema de pagos para manejar cualquier área de tu negocio mundial. Cómo lo hacemos?",
+      "Com a Cardpay você obtem um conjunto de ferramentas de pagamentos para gerenciar cada área da operação global. Veja como:",
+      "Bộ công cụ thanh toán tối ưu của Cardpay giúp bạn quản lí mọi lĩnh vực kinh doanh của mình. Đây là lí do:",
+      "与Cardpay合作，您将获得一整套权威的支付体系来支持您在全球各地的业务。以下是我们的优势："
+    ],
+    "an-agile": [
+      "An agile payment solution connects our customers with potential clients from all over the world",
+      "Nuestro método de pagos, conecta a nuestros clientes con clientes de todo el mundo",
+      "Um meio de pagamento ágil, conectando os nossos clientes com seus usuários pelo mundo",
+      "Một giải pháp thanh toán kết nối khách hàng của chúng tôi với người mua trên toàn thế giới",
+      "灵活的支付工具帮助我们的商户连接世界各地的顾客。"
+    ],
+    "state-of-the-art": [
+      "State-of-the-art technology and a data-driven strategy, which makes electronic payments convenient and highly secure",
+      "Tecnología de punta estrategica basada en datos, permite realizar pagos electrónicos mas seguros y convenientes",
+      "Todo por via de soluções de tecnologia e estratégia orientada a dados para fazer os pagamentos eletrônicos mais seguros e convenientes",
+      "Chiến lược dựa trên dữ liệu và công nghệ tiên tiến để thanh toán điện tử an toàn và thuận tiện hơn",
+      "领先的尖端技术以及数据驱动策略电子支付更加安全和便利。"
+    ],
+    "wide-range": [
+      "A wide array of international and domestic payment solutions which help our clients get easy access to new, previously inaccessible markets",
+      "Una amplia gama de soluciones de pago locales o internacionales que permite a nuestros clientes acceder a nuevos mercados",
+      "Um grande leque de opções de pagamentos locais e internacionais para ajudar os nossos clientes a acessarem os novos mercados",
+      "Một loạt các giải pháp thanh toán quốc tế và địa phương để giúp khách hàng của chúng tôi tiếp cận với các thị trường mới",
+      "丰富多样的国际与本地支付解决方案帮助我们的商户开拓更多新的市场。"
+    ],
+    "we-bring": [
+      "A digital payments ecosystem which places a special emphasis on an intuitive interface and ease of use",
+      "Le ofrecemos un ecosistema de pagos fácil de usar",
+      "Nós trazemos a você o ecosistema de pagamento user-friendly",
+      "Chúng tôi mang đến cho bạn một hệ sinh thái thanh toán thân thiện với người dùng",
+      "Cardpay为商户提供一套友好的支付生态系统。"
+    ],
+    "cardpay-is-taking": [
+      "Cardpay strives to take the payments workflow one step further.",
+      "Cardpay está llevando el procesamiento de pagos a un nivel mas alto",
+      "Cardpay eleva o fluxo de pagamento em um novo patamar.",
+      "Cardpay đang đưa thanh toán lên một tầm cao mới.",
+      "且持续不断优化支付流程，为商户提供最佳的支付体验。"
+    ]
+  },
+  "numbers": {
+    "launched": [
+      "Cardpay was established",
+      "Inicia operaciones Cardpay",
+      "Lançamento da Cardpay",
+      "Thành lập Cardpay",
+      "成立"
+    ],
+    "global-offices": [
+      "Offices worldwide",
+      "Inicia con oficinas globales",
+      "Escritórios no mundo",
+      "Văn phòng trên toàn thế giới",
+      "全球办事处"
+    ],
+    "payment-methods": [
+      "Payment methods",
+      "Ofreciendo mas de métodos de pago",
+      "Métodos de pagamento",
+      "Hình thức thanh toán",
+      "支付方式"
+    ],
+    "nationalities": [
+      "Nationalities employed",
+      "Nacionalidades empleadas",
+      "Nacionalidades de colaboradores",
+      "Quốc tịch của nhân viên",
+      "职员国籍"
+    ]
+  },
+  "developer-friendly": {
+    "title": [
+      "Developer-friendly",
+      "Desarrollo tecnológico amigable",
+      "Intuitivo para os desenvolvedores",
+      "Thân thiện với developer",
+      "开发者友好"
+    ],
+    "items": [
+      "<li>Rest-API</li>\n<li>Industry-leading Documentation services</li>\n<li>Production-ready assisted integration</li>\n<li>Rapid tech support</li>\n<li>High availability</li>\n<li>Robust and highly secure architecture</li>",
+      "<li>API Rest</li>\n<li>Documentación líder en la industria</li>\n<li>Integración asisitida lista para producción</li>\n<li>Soporte técnico rápido</li>\n<li>Alta disponibilidad</li>\n<li>Arquitectura robusta</li>",
+      "<li>REST API</li>\n<li>Melhor documentação da indústria</li>\n<li>Integração supervisionada para o ambiente de produção</li>\n<li>Suporte técnico rápido</li>\n<li>Alta disponibilidade</li>\n<li>Arquitetura robusta</li>",
+      "<li>Rest API</li>\n<li>Dữ liệu đầu ngành</li>\n<li>Hỗ trợ tích hợp có sẵn</li>\n<li>Hỗ trợ kĩ thuật tức thì</li>\n<li>Sẵn sàng có mặt</li>\n<li>Hạ tầng mạnh mẽ</li>",
+      "<li>Rest API</li>\n<li>行业领先的文档</li>\n<li>上线辅助性集成解决方案</li>\n<li>快速的技术支持</li>\n<li>高可用性</li>\n<li>稳定的系统架构</li>"
+    ]
+  },
+  "verification": {
+    "title": [
+      "Verification Best Practices",
+      "Mejores Practicas de verificación",
+      "Melhores Práticas de Verificação",
+      "Xác thực tối ưu",
+      "高效审核"
+    ],
+    "items": [
+      "<li>Easy to implement</li>\n<li>Semi-automated KYC and AML solutions</li>\n<li>Risk Management</li>",
+      "<li>Fácil de aplicar</li>\n<li>Procesos semi automatizados KYC y AML</li>\n<li>Gestión de riesgos</li>",
+      "<li>Fácil de aplicar</li>\n<li>KYC e AML semi-automatizados</li>\n<li>Gerenciamento de risco</li>",
+      "<li>Đăng kí dễ dàng</li>\n<li>KYC và AML bán tự động</li>\n<li>Quản trị rủi ro</li>",
+      "<li>应用简单</li>\n<li>半自动化的KYC与反洗钱(AML)</li>\n<li>风控管理</li>"
+    ]
+  },
+  "payment-solution": {
+    "title": [
+      "All-in-one payment solution",
+      "Solución de Pagos Todo en Uno",
+      "Solução integrada de pagamentos",
+      "Giải pháp thanh toán tất cả trong một",
+      "一体化支付解决方案"
+    ],
+    "items": [
+      "<li>Customized payment page</li>\n<li>Instant cross-border transfers</li>\n<li>Fraud prevention</li>\n<li>Recurring Payments</li>\n<li>Unified quick settlements</li>\n<li>Cloud-based infrastructure</li>",
+      "<li>Página de pagos personalizada</li>\n<li>Transferencias internacionales</li>\n<li>Prevención de fraudes</li>\n<li>Pagos recurrentes</li>\n<li>Proceso de liquidación simple</li>\n<li>Infraestructura basada en la nube</li>",
+      "<li>Customização de página de pagamentos</li>\n<li>Transferências instantâneas para o exterior</li>\n<li>Prevenção a fraude</li>\n<li>Pagamentos recorrentes</li>\n<li>Liquidação de pagamentos rápida e unificada</li>\n<li>Infraestrutura cloud-based</li>",
+      "<li>Trang thanh toán tùy chỉnh</li>\n<li>Chuyển khoản xuyên biên giới ngay lập tức</li>\n<li>Phòng chống gian lận</li>\n<li>Thanh toán định kỳ</li>\n<li>Chuyển khoản nhanh chóng</li>\n<li>Hạ tầng đám mây</li>",
+      "<li>可定制的支付页面</li>\n<li>快速跨境转账</li>\n<li>防诈骗</li>\n<li>周期性支付</li>\n<li>统一快速的结算</li>\n<li>云基础架构</li>"
+    ]
+  },
+  "dashboard": {
+    "title": [
+      "Business-centric dashboard",
+      "Tablero de control basado en el negocio",
+      "Painel de controle centralizado em negócios",
+      "Bảng điều khiển tập trung",
+      "以业务为中心的控制面板"
+    ],
+    "items": [
+      "<li>Payment platform</li>\n<li>Real-time analytics</li>\n<li>Advanced reporting</li>\n<li>Transaction management</li>\n<li>Dispute management</li>",
+      "<li>Plataforma de pagos</li>\n<li>Análisis de datos en tiempo real</li>\n<li>Reportería avanzada</li>\n<li>Gestión de transacciones</li>\n<li>Gestión de controversias</li>",
+      "<li>Plataforma de pagamentos</li>\n<li>Análise em tempo real</li>\n<li>Relatórios avançados</li>\n<li>Gerenciamento de Transações</li>\n<li>Gerenciamento de contestações de compras</li>",
+      "<li>Nền tảng thanh toán</li>\n<li>Phân tích thời gian thực</li>\n<li>Báo cáo nâng cao</li>\n<li>Quản lý giao dịch</li>\n<li>Quản lý tranh chấp</li>",
+      "<li>支付平台</li>\n<li>实时数据分析</li>\n<li>全面的分析报告</li>\n<li>交易管理</li>\n<li>纠纷管理</li>"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.last-post-preview {
+
+  &__caption {
+    font-size: 54px;
+    line-height: 62px;
+    letter-spacing: 0;
+
+    a {
+      position: relative;
+      color: #000;
+      word-wrap: break-word;
+
+      &::before {
+        position: absolute;
+        content: '';
+        background-color: #000;
+        height: 5px;
+        bottom: -10px;
+        width: 0; left: 10%;
+        transition: width .5s;
+      }
+
+      &:hover {
+        text-decoration: none;
+
+        &::before {
+          width: 80%;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  &__image {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    min-height: 100px;
+
+    img {
+      position: relative;
+      display: block;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+    }
+
+    &_is-loading {
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%);
+        width: 40px;
+        height: 40px;
+        background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.002 40C17.3025 40 14.6811 39.4727 12.216 38.4297C9.83299 37.4219 7.69606 35.9766 5.85995 34.1406C4.02383 32.3047 2.57838 30.168 1.57047 27.7852C0.527395 25.3203 0 22.6992 0 20C0 19.2227 0.628968 18.5938 1.40639 18.5938C2.18381 18.5938 2.81277 19.2227 2.81277 20C2.81277 22.3203 3.26594 24.5703 4.16447 26.6914C5.03174 28.7383 6.27014 30.5781 7.84842 32.1562C9.4267 33.7344 11.2667 34.9766 13.3138 35.8398C15.4312 36.7344 17.6814 37.1875 20.002 37.1875C22.3225 37.1875 24.5727 36.7344 26.694 35.8359C28.7411 34.9688 30.5811 33.7305 32.1594 32.1523C33.7377 30.5742 34.98 28.7344 35.8433 26.6875C36.738 24.5703 37.1911 22.3203 37.1911 20C37.1911 17.6797 36.738 15.4297 35.8394 13.3086C34.9751 11.2666 33.7242 9.41098 32.1555 7.84375C30.5898 6.27311 28.7336 5.02201 26.6901 4.16016C24.5727 3.26562 22.3225 2.8125 20.002 2.8125C19.2245 2.8125 18.5956 2.18359 18.5956 1.40625C18.5956 0.628906 19.2245 0 20.002 0C22.7014 0 25.3228 0.527344 27.7879 1.57031C30.1709 2.57812 32.3078 4.02344 34.144 5.85938C35.9801 7.69531 37.4216 9.83594 38.4295 12.2148C39.4726 14.6797 40 17.3008 40 20C40 22.6992 39.4726 25.3203 38.4295 27.7852C37.4255 30.168 35.9801 32.3047 34.144 34.1406C32.3078 35.9766 30.167 37.418 27.7879 38.4258C25.3228 39.4727 22.7014 40 20.002 40Z' fill='%2300B300'/%3E%3C/svg%3E%0A");
+        animation: rotate 1s infinite linear;
+      }
+
+      img {
+        opacity: 0;
+      }
+    }
+  }
+
+  &__content {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}

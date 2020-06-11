@@ -1,0 +1,160 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: $spacer;
+  font-size: 16px;
+  // padding-bottom: 40px;
+
+  @media(max-width: 1000px) {
+    font-size: 13px;
+  }
+}
+
+a.navigation-link, .navigation-link {
+  text-decoration: none;
+  &.login {
+    color: $green;
+  }
+
+  @media(max-width: 1230px) {
+    padding: 0 1rem;
+  }
+  @media(max-width: 1022px) {
+    font-size: 14px;
+    padding: 0 .5rem;
+  }
+}
+
+
+ul.cp-dropdown-menu {
+  position: relative;
+  box-shadow: $dropdown-menu-box-shadow;
+  border: none;
+  min-width: 200px;
+  border-radius: 10px;
+  padding: 10px 0 30px;
+  li.cp-dropdown-menu-item {
+    &:last-child {
+      margin-bottom: 0;
+    }
+    padding: 0;
+    margin: 20px 0;
+    font-size: $dropdown-menu-item-font-size;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 30px;
+    transition: background .24s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.rc-dropdown-menu-item-active {
+      background: $white;
+    }
+    &:hover {
+      background: #f2f2f2;
+    }
+    a, div {
+      color: $black;
+      font-weight: bold;
+      display: block;
+      letter-spacing: 1px;
+      text-decoration: none;
+      width: 100%;
+      text-align: center;
+      padding: 0 10px;
+      &:after {
+        display: none;
+      }
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+a.cp-dropdown-opened, .cp-dropdown-opened {
+  background: $brand-active;
+  color: $black !important;
+}
+
+
+.mobile-navigation-menu-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+
+  .mobile-navigation-block {
+    margin: 0;
+    color: $text-muted;
+    font-size: 14px;
+    line-height: 32px;
+    padding-top: 16px;
+  }
+
+  .mobile-navigation-link {
+    display: block;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    color: $gray-900;
+    &:hover {
+      color: $gray-900;
+      text-decoration: none;
+    }
+  }
+
+  .mobile-navigation-logo {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 32px;
+
+    svg {
+      width: 200px;
+      height: 100px;
+    }
+  }
+
+  .overlay-background {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    opacity: 0;
+    transition: all .4s ease-in-out;
+
+    &.show {
+      opacity: 1;
+    }
+  }
+
+  .mobile-menu {
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px 15px;
+    transform: translateY(-400px);
+    transition: all .4s ease-in-out;
+
+    font-size: 18px;
+
+    &.show {
+      transform: translateY(0);
+    }
+  }
+}

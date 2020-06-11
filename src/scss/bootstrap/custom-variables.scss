@@ -1,0 +1,42 @@
+$blue: #007AFF;
+$green: #00b300;
+
+$spacer: 1rem;
+$spacers: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25), // 4
+    2: ($spacer * .5),  // 8
+    3: $spacer,         // 16
+    4: ($spacer * 1.5), // 24
+    5: ($spacer * 2),   // 32
+    6: ($spacer * 3),   // 48
+    7: ($spacer * 4),   // 64
+    8: ($spacer * 5),   // 80
+  ),
+  $spacers
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1022px,
+  xl: 1230px,
+  xxl: 1600px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px,
+  //xxl: 1560px
+);
+
+
+$grid-gutter-width: 30px;
+
+$mobile-bp: 450px;

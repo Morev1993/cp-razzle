@@ -1,0 +1,180 @@
+{
+  "page-meta-title": [
+    "DEVELOPERS",
+    "Desarrolladores",
+    "Desenvolvedores",
+    "Nhà phát triển",
+    "开发者"
+  ],
+  "page-title": [
+    "Developers",
+    "Desarrolladores",
+    "Desenvolvedores",
+    "Nhà phát triển",
+    "开发者"
+  ],
+  "menu": {
+    "api": [
+      "API",
+      "API",
+      "API",
+      "API",
+      "API"
+    ],
+    "solutions": [
+      "SOLUTIONS",
+      "SOLUCIÓN",
+      "Soluções",
+      "Giải pháp",
+      "解决方案"
+    ],
+    "support": [
+      "SUPPORT",
+      "SOPORTE",
+      "Suporte",
+      "Hỗ trợ",
+      "技术支持"
+    ],
+    "help": [
+      "HELP",
+      "AYUDA",
+      "Ajuda",
+      "Giải đáp",
+      "帮助"
+    ]
+  },
+  "description": {
+    "integration_process_title": [
+      "CARDPAY INTEGRATION PROCESS",
+      "PROCESO DE INTEGRACIÓN CARDPAY",
+      "PROCESSO DE INTEGRAÇÃO DA CARDPAY",
+      "QUY TRÌNH TÍCH HỢP CỦA CARDPAY",
+      "Cardpay集成流程"
+    ],
+    "integration_process_title_text": [
+      "The first integration is performed within a sandbox environment, once these tests are finished, we'll prepare a live account for real payments and other financial operations. Integration with Cardpay will consist of the following steps:",
+      "La primera etapa de integracion se realiza en el ambiente de pruebas. Al validar la integracion, Cardpay proporciona las credenciales del sistema productivo que permitan realizar los pagos reales y otras operaciones financieras. El proceso de integracion contiene proximos pasos:",
+      "A primeira integração é feita no ambiente de sandbox. Uma vez que os testes foram concluídos, nós preparamos a conta de produção para transacionar pagamento de verdade e outras operações financeiras.\nA integração com Cardpay deve seguir os seguintes passos:",
+      "Tích hợp đầu tiên được thực hiện trong môi trường sandbox, khi hoàn thành test chúng tôi sẽ cung cấp tài khoản chính thức cho giao dịch thực và các hoạt động tài chính khác. Tích hợp với Cardpay bao gồm các bước sau:",
+      "我们建议在沙盒环境中先进行集成，一旦测试结束，我们将准备好真实付款以及其它财务操作有关的正式账号。\n集成包含以下几个步骤："
+    ],
+    "sandbox": {
+      "title": [
+        "SANDBOX INTEGRATION",
+        "INTEGRACIÓN SANDBOX",
+        "INTEGRAÇÃO DE SANDBOX",
+        "TÍCH HỢP SANDBOX",
+        "沙盒整合"
+      ],
+      "text_1": [
+        "Your website representative will provide us with contact details for your technical specialist (this should include their name, email and optional contact data such as mobile number or Skype ID).",
+        "El representante de su sitio web nos proporcionará los datos de contacto de su especialista técnico (esto debe incluir su nombre, correo electrónico y datos de contacto opcionales, como número de teléfono móvil o ID de Skype).",
+        "O representante do site fornecerá os detalhes de contato do seu especialista técnico (isso deve incluir o nome, o email e os dados opcionais de contato, como número de celular ou ID do Skype).",
+        "Đại diện trang web của bạn sẽ cung cấp cho chúng tôi chi tiết liên hệ cho chuyên gia kỹ thuật của bạn (bao gồm tên, email và dữ liệu liên hệ tùy chọn của họ như số điện thoại di động hoặc ID Skype).",
+        "您的网站代表将为我们提供技术专家的联系方式（其中应包括他们的姓名，电子邮件和可选的联系方式，例如手机号码或Skype ID）。"
+      ],
+      "text_2": [
+        "We will then send the email with login credentials (login and link) and instructions for the first entering to the Sandbox administrative interface (Merchant Account) to your designated technical specialist.",
+        "Luego enviaremos el correo electrónico con las credenciales de inicio de sesión (inicio de sesión y enlace) e instrucciones para la primera entrada a la interfaz administrativa de Sandbox (Cuenta de comerciante) a su especialista técnico designado.",
+        "Em seguida, enviaremos o email com credenciais de login (login e link) e instruções para a primeira entrada na interface administrativa da Sandbox (conta do comerciante) ao especialista técnico designado.",
+        "Sau đó, chúng tôi sẽ gửi email với thông tin đăng nhập (đăng nhập và liên kết) và hướng dẫn cho lần đầu tiên nhập vào giao diện quản trị Sandbox (Tài khoản người bán) cho chuyên gia kỹ thuật được chỉ định của bạn.",
+        "然后，我们会将带有登录凭据（登录和链接）以及有关首次进入沙盒管理界面（商户帐户）的说明的电子邮件发送给您指定的技术专家。"
+      ],
+      "text_3": [
+        "Your technical specialist need to follow the instructions and set a permanent password to the Sandbox Merchant Account.",
+        "Su especialista técnico debe seguir las instrucciones y establecer una contraseña permanente para la cuenta de Sandbox Merchant.",
+        "Seu especialista técnico precisa seguir as instruções e definir uma senha permanente para a conta do comerciante Sandbox.",
+        "Chuyên gia kỹ thuật của bạn cần làm theo hướng dẫn và đặt mật khẩu vĩnh viễn cho Tài khoản người bán Sandbox.",
+        "您的技术专家需要按照说明进行操作，并为Sandbox商家帐户设置永久密码。"
+      ],
+      "text_4": [
+        "The API integration parameters are available in the Sandbox Merchant Account. Please check integration status with your Account manager.",
+        "Los parámetros de integración de API están disponibles en la Cuenta de comerciante de Sandbox. Verifique el estado de integración con su administrador de cuenta.",
+        "Os parâmetros de integração da API estão disponíveis na conta do comerciante Sandbox. Verifique o status da integração com seu gerente de contas.",
+        "Các tham số tích hợp API có sẵn trong Tài khoản người bán Sandbox. Vui lòng kiểm tra trạng thái tích hợp với người quản lý tài khoản của bạn.",
+        "API集成参数在沙盒商户帐户中可用。请与您的客户经理一起检查集成状态。"
+      ],
+      "text_5": [
+        "Your technical specialist will need to use wallet ID and terminal credentials (terminal password, callback secret) which will be provided in the Sandbox Merchant Account (Settings->Wallet settings->Show credentials function). For more information about the terminal credentials, read the <a href='https://cardpay.atlassian.net/wiki/spaces/SUP/pages/144441345/Dashboard#Dashboard-Profile&Settings' target='_blank'>Dashboard Manual section Profile&Settings</a> paragraph Wallet settings. If you have any questions, please contact Cardpay's support team.",
+        "Su especialista técnico necesitará usar la identificación de la billetera y las credenciales del terminal (contraseña del terminal, secreto de devolución de llamada) que se proporcionarán en la cuenta del comerciante de Sandbox (Configuración-> Configuración de la billetera-> Función Mostrar credenciales). Para obtener más información acerca de las credenciales del terminal, lea la sección Manual del panel de control, párrafo Perfil y configuración, Configuración de billetera. Si tiene alguna pregunta, comuníquese con el equipo de soporte de Cardpay.",
+        "Seu especialista técnico precisará usar o ID da carteira e as credenciais do terminal (senha do terminal, segredo de retorno de chamada), que serão fornecidos na Conta do comerciante da Sandbox (Configurações-> Configurações da carteira-> Mostrar a função de credenciais). Para obter mais informações sobre as credenciais do terminal, leia a seção Manual do painel - Perfil - Configurações - parágrafo Configurações da carteira. Se você tiver alguma dúvida, entre em contato com a equipe de suporte da Cardpay.",
+        "Chuyên gia kỹ thuật của bạn sẽ cần sử dụng ID ví và thông tin đầu cuối (mật khẩu đầu cuối, bí mật gọi lại) sẽ được cung cấp trong Tài khoản người bán Sandbox (Cài đặt-> Cài đặt ví-> Hiển thị chức năng thông tin đăng nhập). Để biết thêm thông tin về thông tin đăng nhập thiết bị đầu cuối, hãy đọc phần Hướng dẫn bảng điều khiển Cấu hình & Cài đặt đoạn Cài đặt ví. Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ với nhóm hỗ trợ của Cardpay.",
+        "您的技术专家将需要使用钱包ID和终端凭证（终端密码，回叫密码），这些将在Sandbox商家帐户中提供（设置->钱包设置->显示凭证功能）。有关终端凭据的更多信息，请阅读“仪表板手册”部分的“配置文件＆设置”段落“钱包设置”。如有任何疑问，请联系Cardpay的支持团队。"
+      ]
+    },
+    "live": {
+      "title": [
+        "LIVE INTEGRATION",
+        "INTEGRACIÓN EN VIVO",
+        "INTEGRAÇÃO AO VIVO",
+        "TÍCH HỢP CHÍNH THỨC",
+        "现场整合"
+      ],
+      "text_1": [
+        "Our team will prepare a live account for real payments, along with other financial operations.",
+        "Nuestro equipo preparará una cuenta real para pagos reales, junto con otras operaciones financieras.",
+        "Nossa equipe preparará uma conta ativa para pagamentos reais, juntamente com outras operações financeiras.",
+        "Nhóm của chúng tôi sẽ chuẩn bị một tài khoản trực tiếp cho các khoản thanh toán thực, cùng với các hoạt động tài chính khác.",
+        "我们的团队将为真实付款以及其他财务操作准备一个真实账户。"
+      ],
+      "text_2": [
+        "You will need to provide our team with the contact details of a relevant business representative to support the integration (this should include their name, email and optional contact data such as mobile number or Skype ID).",
+        "Deberá proporcionar a nuestro equipo los datos de contacto de un representante comercial relevante para apoyar la integración (esto debe incluir su nombre, correo electrónico y datos de contacto opcionales, como el número de teléfono móvil o la identificación de Skype).",
+        "Você precisará fornecer à nossa equipe os detalhes de contato de um representante comercial relevante para apoiar a integração (isso deve incluir nome, email e dados de contato opcionais, como número de celular ou ID do Skype).",
+        "Bạn sẽ cần cung cấp cho nhóm của chúng tôi thông tin liên lạc của đại diện doanh nghiệp có liên quan để hỗ trợ tích hợp (bao gồm tên, email và dữ liệu liên hệ tùy chọn của họ như số điện thoại di động hoặc ID Skype).",
+        "您需要向我们的团队提供相关业务代表的联系方式以支持集成（这应该包括他们的姓名，电子邮件和可选的联系方式，例如手机号码或Skype ID）。"
+      ],
+      "text_3": [
+        "We will then send the email with login credentials (login and link) and instructions for the first entering to the live administrative interface (Merchant Account).",
+        "Luego enviaremos el correo electrónico con las credenciales de inicio de sesión (inicio de sesión y enlace) e instrucciones para el primer ingreso a la interfaz administrativa en vivo (Cuenta de comerciante).",
+        "Em seguida, enviaremos o email com credenciais de login (login e link) e instruções para a primeira entrada na interface administrativa ativa (conta do comerciante).",
+        "Sau đó, chúng tôi sẽ gửi email với thông tin đăng nhập (đăng nhập và liên kết) và hướng dẫn cho lần đầu tiên nhập vào giao diện quản trị trực tiếp (Tài khoản người bán).",
+        "然后，我们将发送带有登录凭证（登录和链接）以及有关首次进入实时管理界面（商户帐户）的说明的电子邮件。"
+      ],
+      "text_4": [
+        "Your business representative need to follow the instructions and set a personal permanent passwords to the live Merchant Account.",
+        "Su representante comercial debe seguir las instrucciones y establecer una contraseña personal permanente para la cuenta de comerciante activa.",
+        "Seu representante comercial precisa seguir as instruções e definir senhas permanentes pessoais para a Conta do comerciante ativa.",
+        "Đại diện doanh nghiệp của bạn cần làm theo hướng dẫn và đặt mật khẩu vĩnh viễn cá nhân cho Tài khoản người bán trực tiếp.",
+        "您的业务代表需要按照说明进行操作，并为真实的商户帐户设置个人永久密码。"
+      ],
+      "text_5": [
+        "The API integration parameters are available in Production Merchant Account. Please check integration status with your Account manager.",
+        "Los parámetros de integración API están disponibles en Production Merchant Account. Verifique el estado de integración con su administrador de cuenta.",
+        "Os parâmetros de integração da API estão disponíveis na conta do comerciante de produção. Verifique o status da integração com seu gerente de contas.",
+        "Các tham số tích hợp API có sẵn trong Tài khoản người bán sản xuất. Vui lòng kiểm tra trạng thái tích hợp với người quản lý tài khoản của bạn.",
+        "生产商帐户中提供了API集成参数。请与您的客户经理一起检查集成状态。"
+      ],
+      "text_6": [
+        "Your business representative or your technical specialist should need to replace the existing Sandbox wallet ID and terminal credentials (terminal password, callback secret) with live values which will be provided in a Merchant Account (Settings->Wallet settings->Show credentials function). For more information about the terminal credentials, read the <a href='https://cardpay.atlassian.net/wiki/spaces/SUP/pages/144441345/Dashboard#Dashboard-Profile&Settings' target='_blank'>Dashboard Manual section Profile&Settings</a> paragraph Wallet settings.",
+        "Su representante comercial o su especialista técnico deben reemplazar la identificación de billetera Sandbox existente y las credenciales del terminal (contraseña del terminal, secreto de devolución de llamada) con valores activos que se proporcionarán en una cuenta de comerciante (Configuración-> Configuración de billetera-> Mostrar función de credenciales ) Para obtener más información acerca de las credenciales del terminal, lea la sección Manual del panel de control, párrafo Perfil y configuración, Configuración de billetera.",
+        "Seu representante comercial ou seu especialista técnico deve substituir a ID da carteira Sandbox existente e as credenciais do terminal (senha do terminal, segredo de retorno de chamada) por valores ativos que serão fornecidos em uma conta de comerciante (função Configurações de carteira> Configurações de carteira> Mostrar credenciais) ) Para obter mais informações sobre as credenciais do terminal, leia a seção Manual do painel - Perfil e configurações - parágrafo Configurações da carteira.",
+        "Đại diện doanh nghiệp hoặc chuyên gia kỹ thuật của bạn cần thay thế ID ví Sandbox hiện tại và thông tin xác thực đầu cuối (mật khẩu đầu cuối, bí mật gọi lại) bằng các giá trị trực tiếp sẽ được cung cấp trong Tài khoản người bán (Cài đặt-> Cài đặt ví-> Hiển thị chức năng thông tin đăng nhập ). Để biết thêm thông tin về thông tin đăng nhập thiết bị đầu cuối, hãy đọc phần Hướng dẫn bảng điều khiển Cấu hình & Cài đặt đoạn Cài đặt ví.",
+        "您的业务代表或技术专家应需要用将在商户帐户（设置->钱包设置->显示凭据功能）中提供的实时值替换现有的沙盒钱包ID和终端凭据（终端密码，回调密码）。 ）。有关终端凭据的更多信息，请阅读“仪表板手册”部分的“配置和设置”段落“钱包设置”。"
+      ],
+      "text_7": [
+        "Your system is now ready to accept live payments. If you have any questions, please contact Cardpay's support team.",
+        "Su sistema ahora está listo para aceptar pagos en vivo. Si tiene alguna pregunta, comuníquese con el equipo de soporte de Cardpay.",
+        "Seu sistema está pronto para aceitar pagamentos dinâmicos. Se você tiver alguma dúvida, entre em contato com a equipe de suporte da Cardpay.",
+        "Hệ thống của bạn hiện đã sẵn sàng để chấp nhận thanh toán trực tiếp. Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ với nhóm hỗ trợ của Cardpay.",
+        "您的系统现在可以接受实时付款了。如有任何疑问，请联系Cardpay的支持团队。"
+      ]
+    },
+    "solutions": {
+      "text": [
+        "Cardpay provides an SDK which allows you to create your perfect payment app!",
+        "Cardpay ofrece el SDK que permite desarrollar increibles aplicaciones de pagos.",
+        "Cardpay fornece os SDKs que permitem o desenvolvimento de soluções de pagamento surpreendentes.",
+        "Cardpay cung cấp SDKs cho phép khách hàng xây dựng các ứng dụng thanh toán tuyệt vời.",
+        "Cardpay提供的SDKs助您开发完美的支付应用程序。"
+      ]
+    }
+  },
+  "contacts_text": [
+    "GET IN CONTACT WITH OUR TECHNICAL SUPPORT TEAM AT",
+    "CONTACTE A NUESTROS ESPECIALISTA TECNICOS PARA",
+    "CONTATE O NOSSO SUPORTE TÉCNICO",
+    "LIÊN HỆ HỖ TRỢ KĨ THUẬT TẠI",
+    "请联系我们的技术支持人员"
+  ]
+}

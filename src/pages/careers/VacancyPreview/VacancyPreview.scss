@@ -1,0 +1,46 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.vacancy-preview {
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+
+  &__caption {
+    font-size: 24px;
+    font-weight: bold;
+
+
+    @include media-breakpoint-down(sm) {
+      font-size: 14px;
+      line-height: 32px;
+    }
+  }
+
+  &__description {
+    @include media-breakpoint-down(sm) {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  &__send-cv {
+    display: block;
+    border: 1px solid #00b300;
+    border-radius: 20px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 18px;
+    color: #00b300;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__details {
+    display: block;
+    color: #007aff;
+    line-height: 40px;
+  }
+}

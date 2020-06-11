@@ -1,0 +1,126 @@
+@import '~scss/bootstrap/mixins';
+@import '~scss/bootstrap/variables';
+
+.banking-page {
+  background-color: #f2f2f2;
+  overflow: hidden;
+
+  &__title {
+    position: relative;
+    z-index: 2;
+    font-size: 54px;
+    line-height: 62px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+
+  &__nav {
+    margin-top: 155px;
+    padding-left: 0;
+    position: relative;
+    z-index: 2;
+
+    li {
+      list-style: none;
+      text-transform: uppercase;
+      float: left;
+      margin-right: 50px;
+      font-weight: bold;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__description {
+    position: relative;
+    z-index: 2;
+    font-size: 43px;
+    line-height: 62px;
+    margin-top: 140px;
+    margin-bottom: 110px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  &__bg {
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      top: 0; bottom: 0; left: 0; right: 0;
+      transform: scaleX(2.5) rotate(-9deg);
+    }
+
+    &_case_main {
+      //height: 515px;
+
+      &::before {
+        background-color: #fff;
+      }
+    }
+
+    &_case_perks {
+      //height: 850px;
+      padding-bottom: 130px;
+
+      &::before {
+        background-color: #fff;
+      }
+    }
+
+    &_case_form {
+      padding-bottom: 90px;
+
+      &::before {
+        background-color: #fff;
+      }
+    }
+  }
+
+  &__format, &__format p {
+    font-size: 32px;
+    line-height: 45px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+
+  &__format p {
+    margin-top: 40px;
+  }
+
+  &__card-types {
+    background: url("../../../assets/card-types.png") no-repeat;
+    width: 62px;
+    height: 450px;
+  }
+
+  &__documents {
+    margin-top: 220px;
+    margin-bottom: 150px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 14px;
+      line-height: 22px;
+
+      margin-top: 120px;
+      margin-bottom: 80px;
+    }
+  }
+
+  &__pdf-icon {
+    background: url("../../../assets/pdf.png") no-repeat top center;
+  }
+}

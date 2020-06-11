@@ -1,0 +1,88 @@
+{
+  "developers": [
+    "Developers",
+    "Desarrolladores",
+    "Desenvolvedores",
+    "Nhà phát triển",
+    "开发者"
+  ],
+  "company": {
+    "company": [
+      "Company",
+      "Empresa",
+      "Empresa",
+      "Công ty",
+      "公司"
+    ],
+    "about": [
+      "About",
+      "Acerca de nosotros",
+      "Sobre nós",
+      "Về chúng tôi",
+      "关于我们"
+    ],
+    "blog": [
+      "Blog",
+      "Blog",
+      "Blog",
+      "Blog",
+      "Blog"
+    ],
+    "careers": [
+      "Careers",
+      "Haz Carrera con nosotros",
+      "Trabalhe conosco",
+      "Cơ hội nghề nghiệp",
+      "招贤纳士"
+    ],
+    "contacts": [
+      "Contacts",
+      "Contacto",
+      "Contatos",
+      "Liên hệ",
+      "联系我们"
+    ]
+  },
+  "b2b_card": [
+    "B2Bcard",
+    "B2Bcard",
+    "B2Bcard",
+    "Thẻ B2B",
+    "B2B卡"
+  ],
+  "iBanking": [
+    "iBanking",
+    "iBanking",
+    "iBanking",
+    "iBanking",
+    "网上银行"
+  ],
+  "apply": [
+    "Apply",
+    "Aplicar",
+    "Cadastro",
+    "Ứng dụng",
+    "申请"
+  ],
+  "login": [
+    "Login",
+    "Login",
+    "Login",
+    "Đăng nhập",
+    "登录"
+  ],
+  "dashboard": [
+    "Dashboard",
+    "Dashboard",
+    "Painel",
+    "Dashboard",
+    "Dashboard"
+  ],
+  "menu": [
+    "Menu",
+    "Menú",
+    "Menu",
+    "Thực đơn",
+    "菜单"
+  ]
+}

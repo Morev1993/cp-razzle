@@ -1,0 +1,115 @@
+.form-control {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid $black;
+  border-radius: 0;
+  height: 50px;
+  color: $black;
+  &:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: $black;
+    border-bottom: 1px solid $black;
+  }
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $black;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.error-message {
+  position: absolute;
+  padding-left: 10px;
+  height: 16px;
+  font-size: 12px;
+  line-height: 1.28;
+  text-align: left;
+  color: $danger;
+  z-index: 40;
+}
+
+.material-control {
+  padding: 7px 0 13px;
+  font-size: 18px;
+  width: 100%;
+  .control-inner {
+    width: 100%;
+  }
+  p {
+    color: $danger;
+    position: absolute;
+    font-size: 12px;
+    margin-top: 0;
+    top: 100%;
+
+  }
+  label {
+    color: $black;
+    white-space: nowrap;
+  }
+}
+
+div.control-focused {
+  &:after {
+    border-bottom-color: #303f9f !important;
+  }
+}
+
+div.focused {
+  p {
+    display: none;
+  }
+}
+
+div.control-prevent-errors {
+  p {
+    display: none;
+  }
+
+  .form-control {
+    border-bottom: 1px solid $black;
+    &:focus {
+      border-bottom: 1px solid $black;
+    }
+  }
+
+  .control-inner {
+    &:after {
+      transform: scaleX(0);
+      border-bottom-color: $black !important;
+    }
+  }
+
+  div.control-focused {
+    &:after {
+      border-bottom-color: #303f9f !important;
+    }
+  }
+}
+
+.control-label-error {
+  &.control-label-focused, &.control-label-filled {
+    color: $black;
+  }
+}
+
+.control-label-filled, .control-label-focused {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #9b9b9b !important;
+}
