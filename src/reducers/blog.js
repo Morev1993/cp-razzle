@@ -1,6 +1,6 @@
 import { actionTypes } from '../actions/blog';
 
-const initialState = {
+export const POSTS_STATE = {
   posts: [],
   currentPost: null,
   lastPosts: [],
@@ -13,7 +13,7 @@ const initialState = {
   },
 };
 
-export default (state = initialState, action) => {
+export default (state = POSTS_STATE, action) => {
   switch (action.type) {
     case actionTypes.LOAD_BLOG_POSTS:
       return {

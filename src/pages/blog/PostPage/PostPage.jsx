@@ -89,6 +89,7 @@ class PostPage extends Component {
     return (
       <div className="post-page container typepage">
         <Helmet title={this.title}>
+          <meta name="description" content={this.description} />
           <meta property="og:title" content={this.title}/>
           <meta property="og:description" content={this.description}/>
           <meta property="og:image" content={this.image}/>

@@ -34,7 +34,7 @@ class GoDemo extends Component {
           <Translate id="optimized_desktop" />
         </div>
         <span onClick={this.goToDemo} className="btn btn-success btn-lg btn-go-demo">
-          {/* <span className="button-arrow-wrapper"><Arrow /></span> */}
+          <span className="button-arrow-wrapper"><Arrow /></span>
           <span className="button-text-wrapper">
             <Translate id="button" />
           </span>

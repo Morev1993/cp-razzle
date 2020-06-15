@@ -67,7 +67,7 @@ function getFirstLocaleSegment(locale) {
 }
 
 function getUserLanguage() {
-  let storedLanguage;
+  let storedLanguage = 'en';
 
   if (typeof localStorage === 'undefined') {
     return storedLanguage;
@@ -85,24 +85,26 @@ function getUserLanguage() {
   return storedLanguage;
 }
 
+export const localizeConfig = {
+  languages: [
+    { name: 'English', code: 'en' },
+    { name: 'Español', code: 'es' },
+    { name: 'Português', code: 'pt' },
+    { name: 'Tiếng Việt', code: 'vi' },
+    { name: '简体中文', code: 'zh' },
+  ],
+  options: {
+    defaultLanguage: getUserLanguage(),
+    renderToStaticMarkup,
+  }
+};
+
 
 class Main extends Component {
   constructor(props) {
     super(props);
 
-    this.props.initialize({
-      languages: [
-        { name: 'English', code: 'en' },
-        { name: 'Español', code: 'es' },
-        { name: 'Português', code: 'pt' },
-        { name: 'Tiếng Việt', code: 'vi' },
-        { name: '简体中文', code: 'zh' },
-      ],
-      options: {
-        defaultLanguage: getUserLanguage(),
-        renderToStaticMarkup,
-      }
-    });
+    this.props.initialize(localizeConfig);
 
     // Banner data
     this.finishDate = new Date();

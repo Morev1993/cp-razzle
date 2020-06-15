@@ -100,9 +100,14 @@ class HomePage extends Component {
       self.autoSlide();
     }, options.slideShowDelay);
 
-    // this.hammer = Hammer(window)
-    // this.hammer.on('swipeleft', this.nextSlide);
-    // this.hammer.on('swiperight', this.previousSlide);
+    if (typeof window !== 'undefined') {
+      const Hammer = require('hammerjs');
+
+      this.hammer = Hammer(window);
+      this.hammer.on('swipeleft', this.nextSlide);
+      this.hammer.on('swiperight', this.previousSlide);
+    }
+
   }
 
   componentWillUnmount() {
@@ -111,8 +116,10 @@ class HomePage extends Component {
     window.removeEventListener('resize', this.resizeHandler);
     window.removeEventListener('keyup', this.handleKeyup);
     clearInterval(this.transitionTimeout);
-    // this.hammer.off('swipeleft');
-    // this.hammer.off('swiperight');
+    if (typeof window !== 'undefined') {
+      this.hammer.off('swipeleft');
+      this.hammer.off('swiperight');
+    }
   }
 
   resetSlideShowCounter() {

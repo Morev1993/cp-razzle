@@ -6,7 +6,7 @@ import './DevelopersPage.scss';
 import BaseFooter from "../../shared/parts/base-footer/BaseFooter";
 import {Helmet} from "react-helmet";
 
-import translations from "./translations";
+import translations from "./translations.json";
 import {Translate, withLocalize} from "react-localize-redux";
 
 class DevelopersPage extends Component {

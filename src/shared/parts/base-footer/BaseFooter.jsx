@@ -13,7 +13,7 @@ import {FollowUs} from "../../../pages/blog/FollowUs/FollowUs";
 class BaseFooter extends Component {
   static defaultProps = {
     containerClass: "",     
-  }
+  };
 
   constructor(props) {
     super(props);
@@ -63,7 +63,7 @@ class BaseFooter extends Component {
               )}
             </div>
             <div className="col-12 col-lg-4 order-1 order-lg-2">
-              {/* <FollowUs style={{ marginBottom: '30px' }} /> */}
+               <FollowUs style={{ marginBottom: '30px' }} />
             </div>
           </div>
         </div>

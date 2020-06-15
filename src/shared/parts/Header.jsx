@@ -14,7 +14,7 @@ class Header extends Component {
     super(props);
     this.state = {
       layout: props.layout || HEADER_LAYOUTS.sticky,
-      vPosition: 'bottom',
+      vPosition: 'top',
     };
 
     this.onScroll = this.onScroll.bind(this);

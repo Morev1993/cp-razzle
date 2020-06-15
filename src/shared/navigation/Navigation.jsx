@@ -7,7 +7,7 @@ import 'rc-dropdown/assets/index.css';
 
 import { LangSwitch } from '../parts/lang-switch/LangSwitch';
 
-import translations from "./translations";
+import translations from "./translations.json";
 import {Translate, withLocalize} from "react-localize-redux";
 
 const companyMenu = (

@@ -23,7 +23,7 @@ const renderLogo = (props) => {
 
 const Logo = (props) => (
   <Link to="/">
-    {''}
+    {renderLogo(props)}
   </Link>
 );
 

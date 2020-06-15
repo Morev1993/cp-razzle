@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['scss'],
+  plugins: ['scss', 'svg-react-component'],
   modify: (config) => {
     delete config.externals;
 

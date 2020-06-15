@@ -63,6 +63,10 @@ export const loadCurrentBlogPostFailure = () => ({
   type: actionTypes.LOAD_CURRENT_BLOG_POST_FAILURE,
 });
 
+export function getCurrentPostUrl(postSlug) {
+  return `${environment.wp_api}/wp/?rest_route=/wp/v2/posts&categories=2&_embed=true&slug=${postSlug}`;
+}
+
 export const loadCurrentBlogPost = (postSlug) => {
   return (dispatch) => {
     dispatch(loadCurrentBlogPostStart());
@@ -71,7 +75,7 @@ export const loadCurrentBlogPost = (postSlug) => {
       return;
     }
 
-    window.fetch(`${environment.wp_api}/wp/?rest_route=/wp/v2/posts&categories=2&_embed=true&slug=${postSlug}`)
+    window.fetch(getCurrentPostUrl(postSlug))
       .then(res => res.json())
       .then(data => dispatch(loadCurrentBlogPostSuccess(data[0])))
       .catch(() => dispatch(loadCurrentBlogPostFailure()));

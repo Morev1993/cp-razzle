@@ -53,66 +53,64 @@ class MobileNavigation extends Component {
         </div>
         { this.state.on &&
 
-          <NoSSR>
-            <MobileMenu>
-              <div className="mobile-navigation-menu-wrapper">
+        <MobileMenu>
+          <div className="mobile-navigation-menu-wrapper">
 
 
-                  <div ref={node => this.overlay = node} onClick={this.hideMenu} className="overlay-background" />
+            <div ref={node => this.overlay = node} onClick={this.hideMenu} className="overlay-background" />
 
 
-                  <div ref={node => this.mobileMenu = node} className='mobile-menu'>
+            <div ref={node => this.mobileMenu = node} className='mobile-menu'>
 
-                    <div className="row align-items-center">
-                      <div className="col-sm-6">
-                        <div className="mobile-navigation-logo">
-                          <CardpayLogo layout='base' />
-                        </div>
-                      </div>
-                      <div className="col-sm-6">
-                        <div className="mb-3">
-                          <LangSwitch/>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="row">
-                      <div className="col-6">
-                        <NavLink className="mobile-navigation-link" to="/developers">
-                          <Translate id="developers" />
-                        </NavLink>
-
-                        <NavLink className="mobile-navigation-link" to="/about-company">
-                          <Translate id="company.about" />
-                        </NavLink>
-                        <NavLink className="mobile-navigation-link" to="/blog">
-                          <Translate id="company.blog" />
-                        </NavLink>
-                        <NavLink className="mobile-navigation-link" to="/careers">
-                          <Translate id="company.careers" />
-                        </NavLink>
-                        <NavLink className="mobile-navigation-link" to="/contacts">
-                          <Translate id="company.contacts" />
-                        </NavLink>
-                      </div>
-
-                      <div className="col-6">
-                        <NavLink className="mobile-navigation-link" to="/ibanking">
-                          <Translate id="iBanking" />
-                        </NavLink>
-                        <NavLink className="mobile-navigation-link" to="/apply">
-                          <Translate id="apply" />
-                        </NavLink>
-                        <p className="mobile-navigation-block"><Translate id="login" />:</p>
-                        <a className="mobile-navigation-link" href="https://cardpay.com/ma/" rel="noopener noreferrer" target="_blank">Dashboard</a>
-                        <a className="mobile-navigation-link" href="https://ibank.cardpay.com/?r=site/home" rel="noopener noreferrer" target="_blank" style={{ textTransform: 'initial' }}>iBank</a>
-                      </div>
-                    </div>
+              <div className="row align-items-center">
+                <div className="col-sm-6">
+                  <div className="mobile-navigation-logo">
+                    <CardpayLogo layout='base' />
                   </div>
-
+                </div>
+                <div className="col-sm-6">
+                  <div className="mb-3">
+                    <LangSwitch/>
+                  </div>
+                </div>
               </div>
-            </MobileMenu>
-          </NoSSR>
+
+              <div className="row">
+                <div className="col-6">
+                  <NavLink className="mobile-navigation-link" to="/developers">
+                    <Translate id="developers" />
+                  </NavLink>
+
+                  <NavLink className="mobile-navigation-link" to="/about-company">
+                    <Translate id="company.about" />
+                  </NavLink>
+                  <NavLink className="mobile-navigation-link" to="/blog">
+                    <Translate id="company.blog" />
+                  </NavLink>
+                  <NavLink className="mobile-navigation-link" to="/careers">
+                    <Translate id="company.careers" />
+                  </NavLink>
+                  <NavLink className="mobile-navigation-link" to="/contacts">
+                    <Translate id="company.contacts" />
+                  </NavLink>
+                </div>
+
+                <div className="col-6">
+                  <NavLink className="mobile-navigation-link" to="/ibanking">
+                    <Translate id="iBanking" />
+                  </NavLink>
+                  <NavLink className="mobile-navigation-link" to="/apply">
+                    <Translate id="apply" />
+                  </NavLink>
+                  <p className="mobile-navigation-block"><Translate id="login" />:</p>
+                  <a className="mobile-navigation-link" href="https://cardpay.com/ma/" rel="noopener noreferrer" target="_blank">Dashboard</a>
+                  <a className="mobile-navigation-link" href="https://ibank.cardpay.com/?r=site/home" rel="noopener noreferrer" target="_blank" style={{ textTransform: 'initial' }}>iBank</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </MobileMenu>
             
         }
       </div>

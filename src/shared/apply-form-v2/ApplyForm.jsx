@@ -467,7 +467,7 @@ class ApplyForm extends Component {
                     onClose={this.onClose}>
               <div className="text-center">
                 <p>
-                  {/* <CheckIcon></CheckIcon> */}
+                   <CheckIcon></CheckIcon>
                 </p>
                 <p className="success-modal-heading">
                   <Translate id="form_submitted" />.

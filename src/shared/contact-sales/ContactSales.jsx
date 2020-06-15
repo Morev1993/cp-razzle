@@ -12,7 +12,7 @@ class ContactSales extends Component {
     this.state = {
       hover: false,
       playState: 'stop'
-    }
+    };
 
     this.mouseEnterHandler = this.mouseEnterHandler.bind(this);
     this.mouseLeaveHandler = this.mouseLeaveHandler.bind(this);
